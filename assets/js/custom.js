@@ -322,6 +322,12 @@ $(document).ready(function () {
 			title: 'Hello World!'
 		});
 	}
+	
+	/* redirect from form (delete after github pages) */
+	$("#contact-form").submit(function(e) {
+		$(location).attr('href', 'thanks.html');
+		return false;
+	});
 
 	/* Navbar hiding script */
 	var prevScrollpos = window.pageYOffset;
