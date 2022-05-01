@@ -1,8 +1,8 @@
 
 	$(function () {
 		$("#text-rotator").typed({
-			strings: ["TeachHouse", "нами!"],
-			typeSpeed: 100,
+			strings: ["TeachHouse"],
+			typeSpeed: 150,
 			loop: true,
 			startDelay: 100
 		});
